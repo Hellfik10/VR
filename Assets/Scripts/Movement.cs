@@ -30,7 +30,7 @@ public class Movement : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.LeftControl))
         {
-            transform.Translate(Vector3.back * _speed * Time.deltaTime);
+            transform.Translate(Vector3.down * _speed * Time.deltaTime);
         }
     }
 }
